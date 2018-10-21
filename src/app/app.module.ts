@@ -18,7 +18,7 @@ import * as component from 'app/components';
     component.CriterionResultsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     HttpClientModule,
     FormsModule
   ],
