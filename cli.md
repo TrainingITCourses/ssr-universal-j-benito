@@ -6,3 +6,6 @@ npm install -D webpack-cli
 
 Change angular.json outputDirs?
 Lazy Loading enabled? ModuleMapLoaderModule -> app.server.module
+
+npm run build:ssr
+npm run serve:ssr
